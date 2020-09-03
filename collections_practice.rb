@@ -47,3 +47,4 @@ def add_s(array)
     if index = 1 ? element : element + "s"
   end
 end
+end
