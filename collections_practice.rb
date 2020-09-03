@@ -44,6 +44,6 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-    element[1..2]<<"s"
+    index == 1 ? element : element[element.length] = "s"
   end
 end
